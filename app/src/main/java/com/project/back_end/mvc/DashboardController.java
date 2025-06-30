@@ -1,4 +1,4 @@
-package com.yourapp.controller;
+package com.project.bacnk_end.mvc;
 
 import com.yourapp.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
