@@ -44,3 +44,5 @@ public class AppointmentController {
         if (service.validateToken(token, "patient").getStatusCode().isError())
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(Map.of("message", "Invalid token"));
         return appointmentService.cancelAppointment(id, token);
+    }
+}
