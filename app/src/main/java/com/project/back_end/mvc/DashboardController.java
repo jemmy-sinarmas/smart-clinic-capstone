@@ -1,6 +1,6 @@
 package com.project.back_end.mvc;
 
-import com.project.back_end.service.AuthService;
+import com.project.back_end.service.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -11,7 +11,7 @@ import java.util.Map;
 public class DashboardController {
 
     @Autowired
-    private AuthService authService;
+    private TokenService authService;
 
     @GetMapping("/adminDashboard/{token}")
     public String adminDashboard(@PathVariable String token) {
