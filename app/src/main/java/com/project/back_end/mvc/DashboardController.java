@@ -1,6 +1,6 @@
-package com.project.bacnk_end.mvc;
+package com.project.back_end.mvc;
 
-import com.yourapp.service.AuthService;
+import com.project.back_end.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
