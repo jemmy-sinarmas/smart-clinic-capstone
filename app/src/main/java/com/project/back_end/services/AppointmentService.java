@@ -1,11 +1,11 @@
 package com.project.back_end.services;
 
-import com.project.back_end.model.Appointment;
-import com.project.back_end.model.Doctor;
-import com.project.back_end.repository.AppointmentRepository;
-import com.project.back_end.repository.DoctorRepository;
-import com.project.back_end.repository.PatientRepository;
-import com.project.back_end.service.helper.TokenService;
+import com.project.back_end.models.Appointment;
+import com.project.back_end.models.Doctor;
+import com.project.back_end.repo.AppointmentRepository;
+import com.project.back_end.repo.DoctorRepository;
+import com.project.back_end.repo.PatientRepository;
+import com.project.back_end.services.TokenService;
 import com.project.back_end.dto.AppointmentDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
